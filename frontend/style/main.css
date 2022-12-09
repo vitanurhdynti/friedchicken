@@ -1,0 +1,334 @@
+/*HEADER*/
+.header {
+    background-color: #B50924;
+}
+.topnav {
+    margin-bottom: 31px;
+    margin-top: 32px;
+}
+.topnav a {
+    text-align: right;
+    padding-left: 45px;
+
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+
+    color: #FFFFFF;
+}
+/*TUTUP HEADER*/
+.hero-section img{
+    width: 100%;
+}
+/*BANNER PROMO SECTION*/
+.banner-section img {
+    width: 100%;
+}
+.banner-section .banner-full {
+    margin-top: 116px;
+    margin-bottom: 36px;
+}
+.banner-section .banner-row {
+    padding: 25px ;
+}
+.banner-row img {
+    box-shadow: 2px 4px 4px rgba(0, 0, 0, 0.35);
+}
+.banner-row .col-4 {
+    transition: all 0.3s;
+}
+.banner-row .col-4:hover {
+    position: relative;
+    bottom: 10px;
+}
+/*TUTUP BANNER PROMO SECTION*/
+.main-title {
+    font-family: open sans;
+    font-size: 28px;
+    font-weight: 500;
+    margin-bottom: 25px;
+}
+/*CATEGORIES*/
+.hot-promo {
+    margin-top: 75px;
+    padding-top: 35px;
+    padding-bottom: 55px;
+
+    background-color: #eeeeee;
+}
+.row {
+    margin: 10px -16px;
+  }
+/* Add padding BETWEEN each column */
+.row,
+.row > .column {
+    padding: 15px;
+}
+  
+/* Create three equal columns that floats next to each other */
+.column {
+    float: left;
+    width: 25%;
+    display: none; 
+    /* Hide all elements by default */
+}
+  
+/* Clear floats after rows */ 
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+  
+/* Content */
+.content {
+    background-color: white;
+    padding-bottom: 55px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.content img {
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+.content h4 {
+    text-align: center;
+    font-family: open sans;
+    font-style: 400;
+    font-size: 18px;
+
+    padding-top: 5px;
+    margin-top: 25px;
+}
+  
+  /* The "show" class is added to the filtered elements */
+  .show {
+    display: block;
+  }
+  
+  /* Style the buttons */
+  .hot-promo button {
+    font-family: open sans;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+
+    outline: none;
+    padding: 12px 16px;
+    cursor: pointer;
+  }
+  
+  .hot-promo button:hover {
+    background-color: none;
+    border-width: 3px black;
+  }
+  
+  .hot-promo button :active {
+    background-color: #666;
+    color: white;
+    border: black;
+  }
+  /*TUTUP CATEGORIES*/
+
+/*MID BANNER*/
+.mid-banner img {
+    margin-top: 45px;
+    margin-bottom: 50px;
+    width: 100%;
+}
+/*TUTUP MID BANNER*/
+
+/*PRODUCT SECTION SECTION*/
+.detail-product {
+    margin-top: 120px;
+}
+.detail-product .col-9{
+    background-color: white;
+    border: 2px solid #D9D9D9 ;
+
+    padding: 45px;
+
+    border-radius: 10px;
+}
+.detail-product h5 {
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 22px;
+
+    margin-bottom: 25px;
+}
+.content {
+    background-color: white;
+    border: 2px solid #D9D9D9 ;
+    padding-bottom: 55px;
+    border-radius: 10px;
+}
+.content img {
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+.content h4 {
+    text-align: center;
+    font-family: open sans;
+    font-style: 400;
+    font-size: 18px;
+
+    padding-top: 5px;
+    margin-top: 25px;
+}
+/*PRODUCT SECTION SECTION*/
+.button-order {
+    text-align: right;
+}
+.button-order button {
+    background-color: #ED1A23;
+    border: none;
+    border-radius: 20px;
+
+    height: 87px;
+    width: 220px;
+
+    margin-top: 45px;
+    margin-bottom: 10px;
+
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 22px;
+
+    color: white;
+}
+
+/*BUTTON ORDER PRODUCT*/
+
+/*TUTUP BUTTON ORDER PRODUCT*/
+
+
+/*PRODUCT SECTION SECTION*/
+.my-order {
+    margin-top: 120px;
+}
+.item-list {
+    background-color: #F4F4F4;
+    padding: 15px;
+}
+.order-information {
+    background-color: #F4F4F4;
+    padding: 15px;
+}
+.order-information h1 {
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+}
+.order-information p {
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    margin-bottom: 5px;
+}
+.order-information input  {
+    margin-right: 25px;
+}
+
+
+/*PRODUCT SECTION SECTION*/
+
+
+/*BUTTON ORDER PRODUCT*/
+.button-order {
+    text-align: right;
+
+}
+.button-order button {
+    background-color: #ED1A23;
+    border: none;
+    border-radius: 20px;
+
+    height: 87px;
+    width: 220px;
+
+    margin-top: 45px;
+    margin-bottom: 210px;
+
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 22px;
+
+    color: white;
+}
+/*TUTUP BUTTON ORDER PRODUCT*/
+
+.main-title {
+    font-family: open sans;
+    font-size: 28px;
+    font-weight: 500;
+    margin-bottom: 25px;
+}
+
+
+/*SUCCESS ORDER*/
+.success-order img {
+    margin-top: 150px;
+    margin-bottom: 80px;
+
+
+    width: 690px;
+    height: auto;
+}
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+.success-order p {
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 22px;
+
+    
+
+    text-align: center;
+}
+.success-order h5 {
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    
+    text-decoration: none;
+    color: black;
+
+    text-align: center;
+
+    margin-bottom: 150px;
+}
+/*TUTUP SUCCESS ORDER*/
+
+/*FOOTER*/
+.footer {
+    background-color: #111111;
+    color: white;
+}
+.footer h5 {
+    font-family: open sans;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+
+    padding-top: 45px;
+}
+.footer p {
+    font-family: open sans;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 17px;
+}
+/*TUTUP FOOTER*/

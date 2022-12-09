@@ -1,0 +1,344 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="/friedchicken/frontend/libraries/bootstrap/css/bootstrap.css">
+    <!--My Css-->
+    <link rel="stylesheet" href="/friedchicken/frontend/style/main.css">
+
+    <!-- Google Font  -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&display=swap" rel="stylesheet">
+
+    <title>Friedchicken</title>
+  </head>
+  <link rel="icon" type="image/x-icon" href="/friedchicken/frontend/img/favicon.png">
+  <body>
+<!--Header-->
+<header class="header">
+    <div class="container">
+        <div class="row">
+            <div class="col-4">
+                <img src="/friedchicken/frontend/img/logo.png" >
+            </div>
+            <div class="col-8">
+            <div class="topnav" style="text-align: right">
+                <a class="active" href="#home">Home</a>
+                <a href="#categories">Menu</a>
+                <a href="#promo">Promo</a>
+                <a href="#about">Sign In</a>
+                <a href="#about">Sign Out</a>
+            </div>
+            </div>
+        </div>
+    </div>
+</header>
+<!--TUTUP Header-->
+
+<!--HERO SECTION-->
+<section class="hero-section">
+  <div class="container">
+    <img src="/friedchicken/frontend/img/hero1.png">
+  </div>
+</section>
+<!--TUTUP HERO SECTION-->
+
+<!--BANNER PROMO SECTION-->
+<section class="banner-section" id="promo">
+    <div class="container">
+        <div class="banner-full">
+            <a href="#">
+                <img src="/friedchicken/frontend/img/banner-promo-full.png">
+            </a>
+        </div>
+        <div class="banner-row">
+            <div class="row">  
+            <div class="col-4">
+                <a href="#">
+                <img src="/friedchicken/frontend/img/banner-promo-1.png"></a>
+            </div>
+            <div class="col-4">
+                <a href="#">
+                <img src="/friedchicken/frontend/img/banner-promo-2.png"></a>
+            </div>
+            <div class="col-4">
+                <a href="#">
+                <img src="/friedchicken/frontend/img/banner-promo-3.png"></a>
+            </div>
+        </div>
+        </div>
+        
+    </div>
+</section>
+<!--TUTUP BANNER PROMO SECTION-->
+
+<!--CATEGORIES-->
+<section class="hot-promo" id="categories">
+    <div class="container">
+        <h3 class="main-title">CATEGORIES</h3>
+
+        <!--BUTTON FILTER-->
+
+            <div id="myBtnContainer" style="text-align: center;">
+                <button class="btn active" onclick="filterSelection('all')">Show all</button>
+                <button class="btn" onclick="filterSelection('paket-murah')">Paket Murah</button>
+                <button class="btn" onclick="filterSelection('family-bundles')">Family Bundles</button>
+                <button class="btn" onclick="filterSelection('sides')">Sides</button>
+                <button class="btn" onclick="filterSelection('drinks')">Drinks</button>
+          </div>
+
+        <!--TUTUP BUTTON FILTER-->
+
+        <!--GRID-->
+
+        <div class="row">
+            <div class="column paket-murah">
+              <div class="content">
+                <a href="/friedchicken/pages/detail-product.html">
+                <img src="/friedchicken/frontend/img/paket-murah-1.png" alt="Mountains" style="width:100%">
+                </a>
+                <h4>Paket Murah 1</h4>
+              </div>
+            </div>
+            <div class="column paket-murah">
+              <div class="content">
+            <a href="/friedchicken/pages/detail-product.html">
+              <img src="/friedchicken/frontend/img/paket-murah-2.png" alt="Lights" style="width:100%">
+            </a>
+                <h4>Paket Murah 2</h4>
+              </div>
+            </div>
+            <div class="column paket-murah">
+              <div class="content">
+                <a href="/friedchicken/pages/detail-product.html">
+              <img src="/friedchicken/frontend/img/paket-murah-3.png" alt="paket-murah" style="width:100%"></a>
+                <h4>Paket Murah 3</h4>
+              </div>
+            </div>
+            <div class="column paket-murah">
+                <div class="content">
+                    <a href="/friedchicken/pages/detail-product.html">
+                <img src="/friedchicken/frontend/img/paket-murah-4.png" alt="paket-murah" style="width:100%"></a>
+                  <h4>Paket Murah 4</h4>
+                </div>
+            </div>
+            <div class="column paket-murah">
+                <div class="content">
+                    <a href="/friedchicken/pages/detail-product.html">
+                <img src="/friedchicken/frontend/img/paket-murah-5.png" alt="paket-murah" style="width:100%"></a>
+                  <h4>Paket Murah 5</h4>
+                </div>
+            </div>             
+            
+            <div class="column family-bundles">
+              <div class="content">
+                <img src="/friedchicken/frontend/img/family-bundles-1.png" alt="Car" style="width:100%">
+                <h4>Family Bundles 1</h4>
+              </div>
+            </div>
+            <div class="column family-bundles">
+                <div class="content">
+                    <a href="/friedchicken/pages/detail-product.html">
+                  <img src="/friedchicken/frontend/img/family-bundles-2.png" alt="Family Bundles" style="width:100%"></a>
+                  <h4>Family Bundles 2</h4>
+                </div>
+            </div>
+            <div class="column family-bundles">
+                <div class="content">
+                    <a href="/friedchicken/pages/detail-product.html">
+                  <img src="/friedchicken/frontend/img/family-bundles-3.png" alt="Family Bundles" style="width:100%"></a>
+                  <h4>Family Bundles 3</h4>
+                </div>
+            </div>
+            <div class="column family-bundles">
+                <div class="content">
+                    <a href="/friedchicken/pages/detail-product.html">
+                  <img src="/friedchicken/frontend/img/family-bundles-4.png" alt="Family Bundles" style="width:100%"></a>
+                  <h4>Family Bundles 4</h4>
+                </div>
+            </div>
+            <div class="column family-bundles">
+              <div class="content">
+                <a href="/friedchicken/pages/detail-product.html">
+                <img src="/friedchicken/frontend/img/family-bundles-5.png" alt="Family Bundles" style="width:100%"></a>
+                <h4>Family Bundles 5</h4>
+              </div>
+            </div>        
+            
+            <div class="column sides">
+                <div class="content">
+                    <a href="/friedchicken/pages/detail-product.html">
+                  <img src="/friedchicken/frontend/img/sides-1.png" alt="Sides " style="width:100%"></a>
+                  <h4>CALIFORNIA BURGER</h4>
+                </div>
+            </div>
+            <div class="column sides">
+                  <div class="content">
+                    <a href="/friedchicken/pages/detail-product.html">
+                    <img src="/friedchicken/frontend/img/sides-2.png" alt="Sides " style="width:100%"></a>
+                    <h4>FRENCH FRIES LARGE</h4>
+                  </div>
+            </div>
+            <div class="column sides">
+                  <div class="content">
+                    <a href="/friedchicken/pages/detail-product.html">
+                    <img src="/friedchicken/frontend/img/sides-3.png" alt="Sides " style="width:100%"></a>
+                    <h4>CHICKEN POP</h4>
+                  </div>
+            </div>
+            <div class="column sides">
+                  <div class="content">
+                    <a href="/friedchicken/pages/detail-product.html">
+                    <img src="/friedchicken/frontend/img/sides-4.png" alt="Sides " style="width:100%"></a>
+                    <h4>CHESSY FRIES</h4>
+                  </div>
+            </div>
+
+            <div class="column drinks">
+                <div class="content">
+                    <a href="/friedchicken/pages/detail-product.html">
+                  <img src="/friedchicken/frontend/img/drinks-1.png" alt="drinks" style="width:100%"></a>
+                  <h4>Coca-cola</h4>
+                </div>
+            </div>
+            <div class="column drinks">
+                  <div class="content">
+                    <a href="/friedchicken/pages/detail-product.html">
+                    <img src="/friedchicken/frontend/img/drinks-2.png" alt="drinks" style="width:100%"></a>
+                    <h4>Teh Pucuk</h4>
+                  </div>
+            </div>
+            <div class="column drinks">
+                  <div class="content">
+                    <a href="/friedchicken/pages/detail-product.html">
+                    <img src="/friedchicken/frontend/img/drinks-3.png" alt="drinks" style="width:100%"></a>
+                    <h4>Milo</h4>
+                  </div>
+            </div>
+            <div class="column drinks">
+                  <div class="content">
+                    <a href="/friedchicken/pages/detail-product.html">
+                    <img src="/friedchicken/frontend/img/drinks-4.png" alt="drinks" style="width:100%"></a>
+                    <h4>Le mineral</h4>
+                  </div>
+            </div>
+               
+          <!-- END GRID -->
+        </div>
+        <!-- END ROW -->
+
+    </div>
+</section>
+<!--TUTUP CATEGORIES-->
+
+<!--MID BANNER-->
+<section class="mid-banner">
+    <div class="container">
+        <img src="/friedchicken/frontend/img/mid-banner.png">
+    </div>
+</section>
+<!--TUTUP MID BANNER-->
+
+<!--FOOTER-->
+<footer class="footer">
+    <div class="container">
+        <div class="row">
+            <div class="col-3">
+                <img src="/friedchicken/frontend/img/logo-footer.png" alt="logo-footer">
+            </div>
+            <div class="col-1"></div>
+            <div class="col-2">
+                <h5>ABOUT US</h5>
+                <p>
+                Brand Story <br>
+                CSR <br>
+                Menu <br>
+                Gift Voucher <br>
+                Outlet Locations
+                </p>
+            </div>
+            <div class="col-3">
+                <h5>SERVICE & POLICIES</h5>
+                <p>
+                Contact Us <br>
+                FAQs <br>
+                Privacy Policy <br>
+                Terms of use <br>
+                </p>
+            </div>
+            <div class="col-3">
+                <h5>Connect With Us</h5>
+                <p>
+                Facebook  FriedChicken_id <br>
+                Twitter @FriedChicken_id <br>
+                Youtube FriedChicken_id <br>
+                Instagram FriedChicken_id <br>
+                </p>
+            </div>
+        </div>
+
+    </div>        
+    <div class="row" style="background-color:#B50924 ;">
+        <div class="col-12">
+            <p style="text-align: center;">Copyright FriedChicken 2022-2027 All Right Reserved</p>
+        </div>
+    </div>
+</footer>
+<!--TUTUP FOOTER-->
+
+
+
+    <!-- Option 1: jQuery and Bootstrap Bundle (includes Popper) -->
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="/friedchicken/frontend/libraries/bootstrap/js/bootstrap.js"></script>
+    <script>
+        filterSelection("all")
+        function filterSelection(c) {
+          var x, i;
+          x = document.getElementsByClassName("column");
+          if (c == "all") c = "";
+          for (i = 0; i < x.length; i++) {
+            w3RemoveClass(x[i], "show");
+            if (x[i].className.indexOf(c) > -1) w3AddClass(x[i], "show");
+          }
+        }
+        
+        function w3AddClass(element, name) {
+          var i, arr1, arr2;
+          arr1 = element.className.split(" ");
+          arr2 = name.split(" ");
+          for (i = 0; i < arr2.length; i++) {
+            if (arr1.indexOf(arr2[i]) == -1) {element.className += " " + arr2[i];}
+          }
+        }
+        function w3RemoveClass(element, name) {
+          var i, arr1, arr2;
+          arr1 = element.className.split(" ");
+          arr2 = name.split(" ");
+          for (i = 0; i < arr2.length; i++) {
+            while (arr1.indexOf(arr2[i]) > -1) {
+              arr1.splice(arr1.indexOf(arr2[i]), 1);     
+            }
+          }
+          element.className = arr1.join(" ");
+        }
+        // Add active class to the current button (highlight it)
+        var btnContainer = document.getElementById("myBtnContainer");
+        var btns = btnContainer.getElementsByClassName("btn");
+        for (var i = 0; i < btns.length; i++) {
+          btns[i].addEventListener("click", function(){
+            var current = document.getElementsByClassName("active");
+            current[0].className = current[0].className.replace(" active", "");
+            this.className += " active";
+          });
+        }
+        </script>
+
+
+  </body>
+</html>

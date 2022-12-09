@@ -1,0 +1,244 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="/friedchicken/frontend/libraries/bootstrap/css/bootstrap.css">
+    <!--My Css-->
+    <link rel="stylesheet" href="/friedchicken/frontend/style/main.css">
+
+    <!-- Google Font  -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&display=swap" rel="stylesheet">
+
+    <title>Friedchicken</title>
+  </head>
+  <link rel="icon" type="image/x-icon" href="/friedchicken/frontend/img/favicon.png">
+  <body>
+
+<!--Header-->
+<header class="header">
+    <div class="container">
+        <div class="row">
+            <div class="col-4">
+                <img src="/friedchicken/frontend/img/logo.png">
+            </div>
+            <div class="col-8">
+            <div class="topnav" style="text-align: right">
+                <a class="active" href="/friedchicken/">Home</a>
+                <a href="#categories">Menu</a>
+                <a href="#promo">Promo</a>
+                <a href="#about">Vita Nurhidayanti</a>
+                
+            </div>
+            </div>
+        </div>
+    </div>
+</header>
+<!--TUTUP Header-->
+
+<!--MY ORDER SECTION-->
+<section class="my-order">
+    <div class="container">
+        <h3 class="main-title">MY ORDER</h3>
+    
+    <div class="row">
+        <div class="col-6">
+            <div class="item-list">
+                <table>
+                    <tr>
+                        <td style="width: 55%;">
+                            Item list
+                        </td>
+                        <td style="width: 30%;">
+                            Quantity
+                        </td>
+                        <td style="width: 40%;">
+                            Price
+                        </td>
+                    </tr>
+                    <tr style="margin-top: 35px;">
+                        <td style="width: 55%;">
+                            <img src="/friedchicken/frontend/img/item-list.png">
+                            Paket Murah 1
+                        </td>
+                        <td style="width: 30%;">
+                            <select>
+                                <option value="1">1</option>
+                                <option value="2">2</option>
+                                <option value="3">3</option>
+                                <option value="4">4</option>
+                                <option value="5">5</option>
+                            </select>
+                        </td>
+                        <td style="width: 40%;">
+                            IDR25.000,00
+                        </td>
+                    </tr>
+                    <tr class="total-harga">
+                        <td style="width: 55%;"></td>
+                        <td style="width: 30%; text-align: right; padding-right: 15px;">
+                            Total Item <br>
+                            Delivery Fee <br>
+                            Tax Fee <br>
+                            <b>Total Order</b> 
+                        </td>
+                        <td style="width: 40%;">
+                            IDR25.000,00 <br>
+                            IDR15.000,00 <br>
+                            IDR2.500,00 <br>
+                            <b>IDR42.500,00</b>
+                        </td>
+                    </tr>
+                </table>
+            </div>
+            
+        </div>
+        <div class="col-6">
+            <div class="order-information">
+                <table>
+                    <tr>
+                        <td>
+                            <h1>Order Information</h1>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <p>
+                            Service Method
+                            </p>
+                            <label for="cod">Delivery (COD)</label>
+                            <input type="checkbox" id="cod">
+                            <label for="carryout">Carryout</label>
+                            <input type="checkbox" id="carryout">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <p>
+                            Order Timing
+                            </p>
+                            <label for="now">Now</label>
+                            <input type="checkbox" id="now">
+                            <label for="later">Later</label>
+                            <input type="checkbox" id="later">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <h1>My Location</h1>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <input type="text" placeholder="street" style="width: 200%; margin-bottom:10px; border: none;background-color: #FAFAFA;font-style: italic;
+                            padding-left: 15px;height: 35px;">
+                        </td>    
+                    </tr>
+                    <tr>
+                        <td>
+                            <input type="text" placeholder="House/apart number"style="width: 200%; margin-bottom:10px; border: none;background-color: #FAFAFA;font-style: italic;
+                            padding-left: 15px;height: 35px;">
+                        </td>
+                        
+                    </tr>
+                    <tr>
+                        <td>
+                            <input type="text" placeholder="Additional Information"style="width: 200%; margin-bottom:10px; border: none;background-color: #FAFAFA;font-style: italic;
+                            padding-left: 15px;height: 35px;">
+                        </td>
+                        
+                    </tr>
+                    <tr>
+                        <td>
+                            <h1>Phone Number</h1>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <input type="text" placeholder="Phone Number"style="width: 200%; margin-bottom:10px; border: none;background-color: #FAFAFA;font-style: italic;
+                            padding-left: 15px;height: 35px;">
+                        </td>
+                    </tr>
+                </table>
+            </div>
+        </div>
+    </div>
+    </div>
+</section>
+<!--MY ORDER-PRODUCT SECTION-->
+
+<!--BUTTON CHECKOUT-->
+<div class="button-order">
+    <div class="container">
+        <a href="/friedchicken/pages/success-order.html">
+            <button>
+                CHECKOUT
+            </button>
+        </a>
+    </div>
+</div>
+<!--TUTUP BUTTON CHECKOUT-->
+
+
+<!--FOOTER-->
+<footer class="footer">
+    <div class="container">
+        <div class="row">
+            <div class="col-3">
+                <img src="/friedchicken/frontend/img/logo-footer.png" alt="logo-footer">
+            </div>
+            <div class="col-1"></div>
+            <div class="col-2">
+                <h5>ABOUT US</h5>
+                <p>
+                Brand Story
+                CSR
+                Menu
+                Gift Voucher
+                Outlet Locations
+                </p>
+            </div>
+            <div class="col-3">
+                <h5>SERVICE & POLICIES</h5>
+                <p>
+                Contact Us <br>
+                FAQs <br>
+                Privacy Policy <br>
+                Terms of use
+                </p>
+            </div>
+            <div class="col-3">
+                <h5>Connect With Us</h5>
+                <p>
+                Facebook  FriedChicken_id <br>
+                Twitter @FriedChicken_id <br>
+                Youtube FriedChicken_id <br>
+                Instagram FriedChicken_id
+                </p>
+            </div>
+        </div>
+
+    </div>        
+    <div class="row" style="background-color:#B50924 ;">
+        <div class="col-12">
+            <p style="text-align: center;" >Copyright FriedChicken 2022-2027 All Right Reserved</p>
+        </div>
+    </div>
+</footer>
+<!--TUTUP FOOTER-->
+
+
+
+
+    <!-- Option 1: jQuery and Bootstrap Bundle (includes Popper) -->
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="/friedchicken/frontend/libraries/bootstrap/js/bootstrap.js"></script>
+
+
+  </body>
+</html>
